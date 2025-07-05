@@ -8,7 +8,7 @@ window.onload = function() {
         const card = document.createElement('div');
         card.className = 'project-card';
 
-        // Use thumbnail if available, else show placeholder
+        
         let thumbnailHTML = '';
         if (pr.thumbnail) {
           thumbnailHTML = `<img src="${pr.thumbnail}" alt="${pr.repo} thumbnail" class="thumbnail">`;
