@@ -61,7 +61,13 @@ nav ul li a:hover {
 }
 
 .name h1 {
-    font-size: 4rem; /* big title */
+    font-size: 4rem; 
     color: #007bff;
     font-weight: 600;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
