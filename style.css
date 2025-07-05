@@ -98,24 +98,24 @@ nav ul li a:hover {
 }
 
 .placeholder {
-  background-color: #e0e0e0; /* light gray, change if you want */
+  background-color: #e0e0e0; 
 }
 
-/* Project title */
+
 .project-card h3 {
   margin: 10px 0 5px;
   font-size: 1.1em;
   color: #333;
 }
 
-/* Team name text */
+
 .project-card p {
   margin: 0 0 10px;
   font-size: 0.95em;
   color: #666;
 }
 
-/* View Details button */
+
 .project-card button {
   background-color: #007bff;
   color: white;
