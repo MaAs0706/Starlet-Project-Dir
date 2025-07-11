@@ -17,7 +17,7 @@ window.onload = function() {
         }
         card.innerHTML = `
           ${thumbnailHTML}
-          <h3>${projects.repo}</h3>
+          <h3>${pr.repo}</h3>
           <p>Team: ${pr.team}</p>
           <button onclick="viewDetails('${pr.owner}', '${pr.repo}')">View Details</button>
         `;
