@@ -9,6 +9,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff;
     color: #333;
+    line-height: 1.6;
 }
 
 /* Navbar styling */
@@ -61,6 +62,7 @@ nav ul li a:hover {
 }
 
 .name h1 {
+    font-family:  "Lucida Console", "Courier New", monospace;
     font-size: 4rem; 
     color: #007bff;
     font-weight: 600;
