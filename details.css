@@ -49,3 +49,29 @@ nav ul li a {
 nav ul li a:hover {
     color: #007bff;
 }
+
+.head{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    background-color: #e9ecef;
+    margin-bottom: 20px;
+    border: black 2px solid;
+}
+
+pre {
+  white-space: pre-wrap;   
+  word-wrap: break-word;   
+  overflow-x: auto;        
+}
+.navbar {
+  width: 100%;
+}
+
+
