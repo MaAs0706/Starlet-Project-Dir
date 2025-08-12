@@ -14,18 +14,60 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <div class="name">
         <h1>Starlet</h1>
     </div>
+
     <div class="content">
         <h2>Starlet Project Directory</h2>
     </div>
+
     <div id="project-list" class="project-list"></div>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>
+            Starlet is a collaborative platform where innovation meets execution.
+            Our mission is to connect passionate individuals with the resources,
+            knowledge, and network they need to bring their ideas to life.
+            We believe in fostering creativity, collaboration, and growth through
+            technology-driven projects.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Have questions or want to collaborate? We’d love to hear from you!</p>
+        <ul>
+            <li>Email: <a href="mailto:info@starlet.com">info@starlet.com</a></li>
+            <li>Phone: +91 98765 43210</li>
+            <li>Address: 123 Innovation Street, Kochi, India</li>
+        </ul>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Starlet. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
