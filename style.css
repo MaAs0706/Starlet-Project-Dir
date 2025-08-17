@@ -207,3 +207,57 @@ footer {
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+/* Floating Bubbles */
+.bubble {
+  position: absolute;
+  background: rgba(6, 4, 4, 0.25);
+  border-radius: 50%;
+  animation: floatUp 25s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bubble:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  left: 10%;
+  animation-delay: 0s;
+}
+.bubble:nth-child(2) {
+  width: 80px;
+  height: 80px;
+  left: 30%;
+  animation-delay: 5s;
+}
+.bubble:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  left: 55%;
+  animation-delay: 10s;
+}
+.bubble:nth-child(4) {
+  width: 100px;
+  height: 100px;
+  left: 75%;
+  animation-delay: 3s;
+}
+.bubble:nth-child(5) {
+  width: 30px;
+  height: 30px;
+  left: 90%;
+  animation-delay: 8s;
+}
+
+@keyframes floatUp {
+  0% {
+    bottom: -150px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    bottom: 110%;
+    opacity: 0;
+  }
+}
