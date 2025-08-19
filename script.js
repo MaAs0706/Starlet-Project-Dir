@@ -1,5 +1,5 @@
 window.onload = function() {
-  fetch('https://script.google.com/macros/s/AKfycbw8z_FT7Im1Aa7FijTIALWz0TWcGU9t0btDWNmPCYtImfh_9ABliLgcXsdGTwKvj6SVMQ/exec') 
+  fetch('https://script.google.com/macros/s/AKfycbzu_dVptpAw0kVXP-GHwH3tjjp04qmxkDSpkF9p6OkBTYh0cuWQDdgacQnhYyE0RfuW/exec') // live JSON from Google Sheet
     .then(res => res.json())
     .then(projects => {
       const listDiv = document.getElementById('project-list');
