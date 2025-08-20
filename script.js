@@ -22,7 +22,7 @@ window.onload = function() {
           <button onclick="viewDetails('${pr.owner}', '${pr.repo}')">View Details</button>
         `;
 
-        listDiv.appendChild(card);
+      listDiv.appendChild(card);
       });
     })
     .catch(error => {
